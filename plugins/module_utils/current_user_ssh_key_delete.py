@@ -42,4 +42,6 @@ class CurrentUserSshKeyDelete:
             headers=headers,
             json_data=json_data,
         )
-        return response.json()
+        #return response.json()
+        if response.content:
+            return response.json()
