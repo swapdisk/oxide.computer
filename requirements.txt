@@ -1,0 +1,5 @@
+# TO-DO: add python packages that are required for this collection
+httpx>=0.28.0
+pydantic>=2.10.6
+typing-extensions>=4.12.2
+python-dateutil>=2.9.0
